@@ -1,8 +1,7 @@
 import React from 'react';
 import bhargaviPortrait from '../assets/images/founder_bhargavi.jpg';
 import sathyaPortrait from '../assets/images/founder_sathya_sai.jpg';
-import { 
-  Cpu, 
+import {Cpu, 
   ShieldCheck, 
   Code2, 
   TrendingUp, 
@@ -12,9 +11,7 @@ import {
   Sparkles,
   CheckCircle2,
   Workflow,
-  Globe2,
-  ArrowUpRight,
-  ExternalLink
+  Globe2
 } from 'lucide-react';
 
 export const FounderSection: React.FC = () => {
@@ -68,12 +65,6 @@ export const FounderSection: React.FC = () => {
                 <div className="px-3.5 py-1.5 rounded-full bg-stone-900 text-white text-xs font-mono font-medium tracking-wide shadow-sm">
                   Founder &amp; Owner
                 </div>
-                <div
-                  className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-white hover:bg-stone-900 text-stone-700 hover:text-white border border-black/10 text-xs font-mono font-medium transition-all duration-200 shadow-sm group/btn"
-                >
-                  <span>View Profile</span>
-                  
-                </div>
               </div>
             </div>
 
@@ -81,9 +72,9 @@ export const FounderSection: React.FC = () => {
             <div className="p-7 sm:p-9 space-y-7 flex-1 flex flex-col justify-between">
               {/* Media Frame & Focus Area */}
               <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 items-start">
-                {/* Authentic Portrait - Clickable to Profile */}
+                {/* Founder portrait */}
                 <div
-                  className="sm:col-span-5 relative aspect-[4/5] rounded-2xl overflow-hidden bg-stone-100 border border-black/[0.08] shadow-sm block group/img cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#65558f] focus:ring-offset-2"
+                  className="sm:col-span-5 relative aspect-[4/5] rounded-2xl overflow-hidden bg-stone-100 border border-black/[0.08] shadow-sm block group/img"
                 >
                   <img
                     src={sathyaPortrait}
@@ -92,13 +83,6 @@ export const FounderSection: React.FC = () => {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-2xl pointer-events-none" />
-
-                  {/* Subtle hover overlay hint */}
-                  <div className="absolute inset-0 bg-black/25 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3">
-                    <span className="px-3 py-1.5 rounded-full bg-white/95 backdrop-blur-md text-xs font-mono text-stone-900 font-medium shadow-md flex items-center gap-1.5 transform translate-y-1 group-hover/img:translate-y-0 transition-transform duration-300">
-                      View Profile 
-                    </span>
-                  </div>
 
                   <div className="absolute bottom-2.5 left-2.5 right-2.5 text-[11px] font-mono text-stone-900 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md border border-black/10 shadow-sm flex items-center gap-1.5">
                     <Lock className="w-3 h-3 text-[#65558f]" />
@@ -150,12 +134,6 @@ export const FounderSection: React.FC = () => {
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                 Strategic &amp; Technical Leadership
               </span>
-              <div
-                className="text-[#65558f] hover:text-[#4f378b] hover:underline font-mono inline-flex items-center gap-1 transition-colors group/view"
-              >
-                <span>Verified Profile</span>
-                
-              </div>
             </div>
           </div>
 
@@ -175,12 +153,6 @@ export const FounderSection: React.FC = () => {
                 <div className="px-3.5 py-1.5 rounded-full bg-stone-900 text-white text-xs font-mono font-medium tracking-wide shadow-sm">
                   Founder &amp; Owner
                 </div>
-                <div
-                  className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-white hover:bg-stone-900 text-stone-700 hover:text-white border border-black/10 text-xs font-mono font-medium transition-all duration-200 shadow-sm group/btn"
-                >
-                  <span>View Profile</span>
-                  
-                </div>
               </div>
             </div>
 
@@ -188,9 +160,9 @@ export const FounderSection: React.FC = () => {
             <div className="p-7 sm:p-9 space-y-7 flex-1 flex flex-col justify-between">
               {/* Media Frame & Focus Area */}
               <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 items-start">
-                {/* Authentic Portrait - Clickable to Profile */}
+                {/* Founder portrait */}
                 <div
-                  className="sm:col-span-5 relative aspect-[4/5] rounded-2xl overflow-hidden bg-stone-100 border border-black/[0.08] shadow-sm block group/img cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#65558f] focus:ring-offset-2"
+                  className="sm:col-span-5 relative aspect-[4/5] rounded-2xl overflow-hidden bg-stone-100 border border-black/[0.08] shadow-sm block group/img"
                 >
                   <img
                     src={bhargaviPortrait}
@@ -199,13 +171,6 @@ export const FounderSection: React.FC = () => {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-2xl pointer-events-none" />
-                  
-                  {/* Subtle hover overlay hint */}
-                  <div className="absolute inset-0 bg-black/25 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3">
-                    <span className="px-3 py-1.5 rounded-full bg-white/95 backdrop-blur-md text-xs font-mono text-stone-900 font-medium shadow-md flex items-center gap-1.5 transform translate-y-1 group-hover/img:translate-y-0 transition-transform duration-300">
-                      View Profile 
-                    </span>
-                  </div>
 
                   <div className="absolute bottom-2.5 left-2.5 right-2.5 text-[11px] font-mono text-stone-900 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md border border-black/10 shadow-sm flex items-center gap-1.5">
                     <Sparkles className="w-3 h-3 text-[#65558f]" />
@@ -257,12 +222,6 @@ export const FounderSection: React.FC = () => {
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                 Active Engineering Oversight
               </span>
-              <div
-                className="text-[#65558f] hover:text-[#4f378b] hover:underline font-mono inline-flex items-center gap-1 transition-colors group/view"
-              >
-                <span>Verified Profile</span>
-                
-              </div>
             </div>
           </div>
         </div>
